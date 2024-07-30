@@ -96,7 +96,7 @@
                     <div class="collapse" id="forms">
                         <ul class="nav nav-collapse">
                             <li>
-                                <a href="forms/forms.html">
+                                <a href="<?= base_url('asset'); ?>">
                                     <span class="sub-item">Aset</span>
                                 </a>
                             </li>
