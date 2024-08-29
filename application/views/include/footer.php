@@ -89,7 +89,9 @@
 </script>
 <script>
     $(document).ready(function() {
-        $('#basic-datatables').DataTable({});
+        $('#basic-datatables').DataTable({
+            scrollX: true,
+        });
 
         $('#multi-filter-select').DataTable({
             "pageLength": 5,
